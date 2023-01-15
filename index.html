@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payme3nt form</title>
+</head>
+<body>
+    <form action = "">
+        <h1>Payment form</h1>
+        <h2>contact information</h2>
+        <p>Name:<input type="text"name="name"></p>
+    </fieldset>
+    <legend>Gender</legend>
+    <p>
+        male<input type="radio"name="gender"id="male">
+        female<input type="radio"name="gender"id="female">
+    </p>
+</fieldset>
+        <p>Address:<textarea name="address"id="address"cols="100"rows="8"></textarea></p>
+        <p>email:<input type="email" name="email"id="email"></p>
+        <h2>payment information</h2>
+        <p>card type:
+            <select name="card type"id="card type">
+                <option value="">--select a card type--</option>
+                <option value="">"rupay"</option>
+                <option value="">"visa"</option>
+                <option value="">"mastercard"</option>
+
+            </select>
+        </p>
+        <p>
+            card number<input type="number"name="card number"id="card number">
+        </p>
+        <p>
+            expiration date:<input type="date" name="exp-date"id="exp-date">
+        </p>
+        <p>
+            cvv<input type="password"name="cvv"id="cvv">
+        </p>
+        <input type="submit" value ="Pay now">
+    
+    </form>
+</body>
+</html>
